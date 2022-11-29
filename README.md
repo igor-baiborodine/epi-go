@@ -1,8 +1,7 @@
 ### Elements of Programming Interviews in Go
 
-Interview problems and solutions presented in this repository are based on the ["Elements of Programming Interviews
-in Python: The Insiders' Guide"](https://www.amazon.ca/Elements-Programming-Interviews-Python-Insiders/dp/1537713949)
-book.
+Interview problems and solutions presented in this repository are based on
+the [Elements of Programming Interviews](https://elementsofprogramminginterviews.com/).
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -14,11 +13,11 @@ book.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-### Chapter 4. Primitive Types
+### Primitive Types
 WIP
 
-### Chapter 5. Arrays
+### Arrays
 WIP
 
-### Chapter 6. Strings
+### Strings
 WIP 
