@@ -7,9 +7,9 @@ the [Elements of Programming Interviews](https://elementsofprogramminginterviews
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Chapter 4. Primitive Types](#chapter-4-primitive-types)
-- [Chapter 5. Arrays](#chapter-5-arrays)
-- [Chapter 6. Strings](#chapter-6-strings)
+- [Primitive Types](#primitive-types)
+- [Arrays](#arrays)
+- [Strings](#strings)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
