@@ -10,7 +10,6 @@ Useful resources:
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Go Programming Language Documentation Portal](#go-programming-language-documentation-portal)
 - [Primitive Types](#primitive-types)
 - [Arrays](#arrays)
 - [Strings](#strings)
