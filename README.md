@@ -4,7 +4,7 @@ Interview problems and solutions presented in this repository are based on
 the [Elements of Programming Interviews](https://elementsofprogramminginterviews.com/).
 
 Useful resources:
-- [Go Programming Language Documentation Portal](#go-programming-language-documentation-portal)
+- [Go Programming Language Documentation Portal](https://go.dev/doc/)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -16,8 +16,6 @@ Useful resources:
 - [Strings](#strings)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-### [Go Programming Language Documentation Portal](https://go.dev/doc/)
 
 ### Primitive Types
 
