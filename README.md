@@ -18,6 +18,11 @@ the [Elements of Programming Interviews](https://elementsofprogramminginterviews
 
 ### Primitive Types
 
+Useful resources:
+- [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
+- [Bit Hacking with Go](https://medium.com/learning-the-go-programming-language/bit-hacking-with-go-e0acee258827)
+- [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
+
 You should know very well Go's basic types, namely, [boolean](https://go.dev/ref/spec#Boolean_types)
 , [numeric](https://go.dev/ref/spec#Numeric_types), and [string](https://go.dev/ref/spec#String_types). 
 You should also know the utility methods for numeric types in [math](https://pkg.go.dev/math) package.
@@ -31,6 +36,19 @@ You should also know the utility methods for numeric types in [math](https://pkg
   to `string`, e.g., `strconv.Itoa(12)`, `string` to numeric types, e.g., `strconv.Atoi("41")`, and `string` to a slice
   of runes, e.g., `[]rune("ABC€")`.
 - Be familiar with the key methods in the [math/rand](https://pkg.go.dev/math/rand) package.
+
+**Tasks**
+1. [ ] Computing the parity of a word
+2. [ ] Swap bits
+3. [ ] Reverse bits
+4. [ ] Find a closest integer with the same weight
+5. [ ] Compute x X y without arithmetical operators
+6. [ ] Compute x/y
+7. [ ] Compute x ** y
+8. [ ] Reverse digits
+9. [ ] Check if a decimal integer is a palindrome
+10. [ ] Generate uniform random numbers
+11. [ ] Rectangle intersection
 
 ### Arrays
 WIP
