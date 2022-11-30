@@ -3,7 +3,7 @@
 Interview problems and solutions presented in this repository are based on
 the [Elements of Programming Interviews](https://elementsofprogramminginterviews.com/).
 
-**Useful resources:**
+**Useful resources**
 - [Go Programming Language Documentation Portal](https://go.dev/doc/)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -37,7 +37,7 @@ You should also know the utility methods for numeric types in [math](https://pkg
   of runes, e.g., `[]rune("ABC€")`.
 - Be familiar with the key methods in the [math/rand](https://pkg.go.dev/math/rand) package.
 
-**Tasks:**
+**Tasks**
 - [ ] Computing the parity of a word
 - [ ] Swap bits
 - [ ] Reverse bits
