@@ -38,7 +38,7 @@ You should also know the utility methods for numeric types in [math](https://pkg
 - Be familiar with the key methods in the [math/rand](https://pkg.go.dev/math/rand) package.
 
 **Tasks**
-- [X] Computing the parity of a word
+- [X] [Computing the parity of a word](/primitivetypes/parity.go)
 - [ ] Swap bits
 - [ ] Reverse bits
 - [ ] Find the closest integer with the same weight
