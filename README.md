@@ -3,11 +3,13 @@
 Interview problems and solutions presented in this repository are based on
 the [Elements of Programming Interviews](https://elementsofprogramminginterviews.com/).
 
+Useful resources:
+- [Go Programming Language Documentation Portal](#go-programming-language-documentation-portal)
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [Go Programming Language Documentation Portal](#go-programming-language-documentation-portal)
 - [Primitive Types](#primitive-types)
 - [Arrays](#arrays)
 - [Strings](#strings)
@@ -38,17 +40,17 @@ You should also know the utility methods for numeric types in [math](https://pkg
 - Be familiar with the key methods in the [math/rand](https://pkg.go.dev/math/rand) package.
 
 **Tasks**
-1. [ ] Computing the parity of a word
-2. [ ] Swap bits
-3. [ ] Reverse bits
-4. [ ] Find a closest integer with the same weight
-5. [ ] Compute x X y without arithmetical operators
-6. [ ] Compute x/y
-7. [ ] Compute x ** y
-8. [ ] Reverse digits
-9. [ ] Check if a decimal integer is a palindrome
-10. [ ] Generate uniform random numbers
-11. [ ] Rectangle intersection
+- [ ] Computing the parity of a word
+- [ ] Swap bits
+- [ ] Reverse bits
+- [ ] Find the closest integer with the same weight
+- [ ] Compute x * y without arithmetical operators
+- [ ] Compute x/y
+- [ ] Compute x ** y
+- [ ] Reverse digits
+- [ ] Check if a decimal integer is a palindrome
+- [ ] Generate uniform random numbers
+- [ ] Rectangle intersection
 
 ### Arrays
 WIP
