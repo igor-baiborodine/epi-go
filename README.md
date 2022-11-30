@@ -18,7 +18,7 @@ the [Elements of Programming Interviews](https://elementsofprogramminginterviews
 
 ### Primitive Types
 
-**Useful resources:**
+**Useful resources**
 - [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
 - [Bit Hacking with Go](https://medium.com/learning-the-go-programming-language/bit-hacking-with-go-e0acee258827)
 - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
