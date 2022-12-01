@@ -2,6 +2,8 @@ package primitivetypes
 
 import (
 	"math"
+	"reflect"
+	"runtime"
 	"testing"
 )
 
@@ -12,23 +14,31 @@ const (
 
 type parityFn func(x uint64) uint16
 
-func testParityFn(t *testing.T, fn parityFn, fnName string) {
+func testParityFn(t *testing.T, fn parityFn) {
 	for _, test := range testData {
 		if got := fn(test.in); got != test.want {
-			t.Errorf("%s(%.64b) = %d; want %d", fnName, test.in, got, test.want)
+			t.Errorf("%s(%.64b) = %d; want %d", fnName(fn), test.in, got, test.want)
 		}
 	}
 }
 
+func fnName(i interface{}) string {
+	return runtime.FuncForPC(reflect.ValueOf(i).Pointer()).Name()
+}
+
+func TestParityBruteForce(t *testing.T)         { testParityFn(t, ParityBruteForce) }
+func TestParityBruteForceImproved(t *testing.T) { testParityFn(t, ParityBruteForceImproved) }
+func TestParity(t *testing.T)                   { testParityFn(t, Parity) }
+
 func benchParityFn(b *testing.B, fn parityFn) {
 	for i := 0; i < b.N; i++ {
-		fn(math.MaxUint64)
+		fn(uint64(math.Pow(2, 64))) // only left most bit is set to 1
 	}
 }
 
-func TestParityBruteForce(t *testing.T) { testParityFn(t, ParityBruteForce, "ParityBruteForce") }
-
-func BenchmarkParity(b *testing.B) { benchParityFn(b, ParityBruteForce) }
+func BenchmarkParityBruteForce(b *testing.B)         { benchParityFn(b, ParityBruteForce) }
+func BenchmarkParityBruteForceImproved(b *testing.B) { benchParityFn(b, ParityBruteForceImproved) }
+func BenchmarkParity(b *testing.B)                   { benchParityFn(b, Parity) }
 
 var testData = []struct {
 	in   uint64
