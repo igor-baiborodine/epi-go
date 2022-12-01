@@ -29,6 +29,7 @@ func fnName(i interface{}) string {
 func TestParityBruteForce(t *testing.T)         { testParityFn(t, ParityBruteForce) }
 func TestParityBruteForceImproved(t *testing.T) { testParityFn(t, ParityBruteForceImproved) }
 func TestParity(t *testing.T)                   { testParityFn(t, Parity) }
+func TestParityBitsOnesCount(t *testing.T)      { testParityFn(t, ParityBitsOnesCount) }
 
 func benchParityFn(b *testing.B, fn parityFn) {
 	for i := 0; i < b.N; i++ {
@@ -39,6 +40,7 @@ func benchParityFn(b *testing.B, fn parityFn) {
 func BenchmarkParityBruteForce(b *testing.B)         { benchParityFn(b, ParityBruteForce) }
 func BenchmarkParityBruteForceImproved(b *testing.B) { benchParityFn(b, ParityBruteForceImproved) }
 func BenchmarkParity(b *testing.B)                   { benchParityFn(b, Parity) }
+func BenchmarkParityBitsOnesCount(b *testing.B)      { benchParityFn(b, ParityBitsOnesCount) }
 
 var testData = []struct {
 	in   uint64

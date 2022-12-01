@@ -1,5 +1,7 @@
 package primitivetypes
 
+import "math/bits"
+
 // ParityBruteForce returns 1 if the number of 1s in x is odd, otherwise O.
 // The time complexity is O(n) where n is the number of bits in x.
 // The space complexity is O(1).
@@ -33,4 +35,10 @@ func Parity(x uint64) (p uint16) {
 	x ^= x >> 2
 	x ^= x >> 1
 	return uint16(x & 1)
+}
+
+// ParityBitsOnesCount returns 1 if the number of 1s in x is odd, otherwise O.
+// To calculate parity, the OnesCount64() function from the math/bits package is used.
+func ParityBitsOnesCount(x uint64) uint16 {
+	return uint16(bits.OnesCount64(x) % 2)
 }
