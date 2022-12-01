@@ -51,6 +51,8 @@ You should also know the utility methods for numeric types in [math](https://pkg
 - [ ] Rectangle intersection
 
 ### Arrays
+
+**Tasks**
 - [ ] The Dutch national flag problem
 - [ ] Increment an arbitrary-precision integer
 - [ ] Multiply two arbitrary-precision integers
@@ -72,6 +74,8 @@ You should also know the utility methods for numeric types in [math](https://pkg
 - [ ] Compute rows in Pascal's Triangle
 
 ### Strings
+
+**Tasks**
 - [ ] Interconvert strings and integers
 - [ ] Base conversion
 - [ ] Compute the spreadsheet column encoding
