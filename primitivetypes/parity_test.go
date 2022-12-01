@@ -22,7 +22,7 @@ func testParityFn(t *testing.T, fn parityFn, fnName string) {
 
 func benchParityFn(b *testing.B, fn parityFn) {
 	for i := 0; i < b.N; i++ {
-		fn(math.MaxInt64)
+		fn(math.MaxUint64)
 	}
 }
 
@@ -53,5 +53,5 @@ var testData = []struct {
 	{518056968971782, even},
 	{363771602569, even},
 	{3741538515502, even},
-	{1<<64 - 1, even},
+	{math.MaxUint64, even},
 }
