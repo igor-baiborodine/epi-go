@@ -43,9 +43,9 @@ You should also know the utility methods for numeric types in [math](https://pkg
 - [ ] Swap bits
 - [ ] Reverse bits
 - [ ] Find the closest integer with the same weight
-- [ ] Compute x*y without arithmetical operators
-- [ ] Compute x/y
-- [ ] Compute x**y
+- [ ] Compute `x*y` without arithmetical operators
+- [ ] Compute `x/y`
+- [ ] Compute `x**y`
 - [ ] Reverse digits
 - [ ] Check if a decimal integer is a palindrome
 - [ ] Generate uniform random numbers
