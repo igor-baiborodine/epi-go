@@ -23,8 +23,8 @@ the [Elements of Programming Interviews](https://elementsofprogramminginterviews
 - [Bit Hacking with Go](https://medium.com/learning-the-go-programming-language/bit-hacking-with-go-e0acee258827)
 - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
 
-You should know very well Go's basic types, namely, [boolean](https://go.dev/ref/spec#Boolean_types)
-, [numeric](https://go.dev/ref/spec#Numeric_types), and [string](https://go.dev/ref/spec#String_types).
+You should know very well Go's basic types, namely, [boolean](https://go.dev/ref/spec#Boolean_types), 
+[numeric](https://go.dev/ref/spec#Numeric_types), and [string](https://go.dev/ref/spec#String_types).
 You should also know the utility methods for numeric types in [math](https://pkg.go.dev/math) package.
 
 - Be very familiar with the bit-wise operators such as `6&4`,  `1|2`, `8>>1`, `-16>>2`, `1<<10`, `15^10`, `4&^3` and key
