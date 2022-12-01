@@ -38,7 +38,7 @@ func Parity(x uint64) (p uint16) {
 }
 
 // ParityBitsOnesCount returns 1 if the number of 1s in x is odd, otherwise O.
-// To calculate parity, the OnesCount64() function from the math/bits package is used.
+// The OnesCount64() function from the math/bits package is used to calculate parity.
 func ParityBitsOnesCount(x uint64) uint16 {
 	return uint16(bits.OnesCount64(x) % 2)
 }
