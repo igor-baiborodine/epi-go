@@ -15,7 +15,7 @@ const (
 type parityFn func(x uint64) uint16
 
 func testParityFn(t *testing.T, fn parityFn) {
-	for _, test := range testData {
+	for _, test := range parityTestData {
 		if got := fn(test.in); got != test.want {
 			t.Errorf("%s(%.64b) = %d; want %d", fnName(fn), test.in, got, test.want)
 		}
@@ -33,7 +33,7 @@ func TestParityBitsOnesCount(t *testing.T)      { testParityFn(t, ParityBitsOnes
 
 func benchParityFn(b *testing.B, fn parityFn) {
 	for i := 0; i < b.N; i++ {
-		fn(uint64(math.Pow(2, 64))) // only left most bit is set to 1
+		fn(uint64(math.Pow(2, 64))) // only most significant bit is set to 1
 	}
 }
 
@@ -42,7 +42,7 @@ func BenchmarkParityBruteForceImproved(b *testing.B) { benchParityFn(b, ParityBr
 func BenchmarkParity(b *testing.B)                   { benchParityFn(b, Parity) }
 func BenchmarkParityBitsOnesCount(b *testing.B)      { benchParityFn(b, ParityBitsOnesCount) }
 
-var testData = []struct {
+var parityTestData = []struct {
 	in   uint64
 	want uint16
 }{
