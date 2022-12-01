@@ -40,7 +40,7 @@ You should also know the utility methods for numeric types in [math](https://pkg
   
 **Tasks**
 - [X] [Computing the parity of a word](/primitivetypes/parity.go)
-- [X] [Swap bits](/primitivetypes/swapbits.go))
+- [X] [Swap bits](/primitivetypes/swapbits.go)
 - [ ] Reverse bits
 - [ ] Find the closest integer with the same weight
 - [ ] Compute `x*y` without arithmetical operators
