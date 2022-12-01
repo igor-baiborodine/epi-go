@@ -18,7 +18,7 @@ the [Elements of Programming Interviews](https://elementsofprogramminginterviews
 
 ### Primitive Types
 
-**Useful resources:**
+**Useful resources**
 - [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
 - [Bit Hacking with Go](https://medium.com/learning-the-go-programming-language/bit-hacking-with-go-e0acee258827)
 - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
@@ -26,8 +26,9 @@ the [Elements of Programming Interviews](https://elementsofprogramminginterviews
 You should know very well Go's basic types, namely, [boolean](https://go.dev/ref/spec#Boolean_types)
 , [numeric](https://go.dev/ref/spec#Numeric_types), and [string](https://go.dev/ref/spec#String_types). 
 You should also know the utility methods for numeric types in [math](https://pkg.go.dev/math) package.
- 
-- Be very familiar with the bit-wise operators such as `6&4`,  `1|2`, `8>>1`, `-16>>2`, `1<<10`, `15^10`, `4&^3`.
+
+- Be very familiar with the bit-wise operators such as `6&4`,  `1|2`, `8>>1`, `-16>>2`, `1<<10`, `15^10`, `4&^3` and key
+  methods in the [math/bits](https://pkg.go.dev/math/bits) package.
 - Know the constants from the `math` package denoting the maximum and minimum values for numeric types,
   e.g., `math.MaxInt`, `math.MaxFloat32`, `math.MinInt`.
 - The key methods for numeric types are `math.Abs(-2)`, `math.Ceil(1.49)`, `math.Floor(1.51)`, `math.Min(-2, -4)`
@@ -36,15 +37,15 @@ You should also know the utility methods for numeric types in [math](https://pkg
   to `string`, e.g., `strconv.Itoa(12)`, `string` to numeric types, e.g., `strconv.Atoi("41")`, and `string` to a slice
   of runes, e.g., `[]rune("ABC€")`.
 - Be familiar with the key methods in the [math/rand](https://pkg.go.dev/math/rand) package.
-
+  
 **Tasks**
-- [ ] Computing the parity of a word
-- [ ] Swap bits
-- [ ] Reverse bits
+- [X] [Computing the parity of a word](/primitivetypes/parity.go)
+- [X] [Swap bits](/primitivetypes/swapbits.go)
+- [X] [Reverse bits](/primitivetypes/reversebits.go)
 - [ ] Find the closest integer with the same weight
-- [ ] Compute x * y without arithmetical operators
-- [ ] Compute x/y
-- [ ] Compute x ** y
+- [ ] Compute `x*y` without arithmetical operators
+- [ ] Compute `x/y`
+- [ ] Compute `x**y`
 - [ ] Reverse digits
 - [ ] Check if a decimal integer is a palindrome
 - [ ] Generate uniform random numbers
