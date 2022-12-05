@@ -46,7 +46,7 @@ You should also know the utility methods for numeric types in [math](https://pkg
 - [ ] Compute `x*y` without arithmetical operators
 - [ ] Compute `x/y`
 - [ ] Compute `x**y`
-- [ ] Reverse digits
+- [X] [Reverse digits](/primitivetypes/reversedigits.go)
 - [ ] Check if a decimal integer is a palindrome
 - [ ] Generate uniform random numbers
 - [ ] Rectangle intersection
