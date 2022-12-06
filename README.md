@@ -5,6 +5,7 @@ the [Elements of Programming Interviews](https://elementsofprogramminginterviews
 
 **Useful resources**
 - [Go Programming Language Documentation Portal](https://go.dev/doc/)
+- [Go Programming Language Specification](https://go.dev/ref/spec)
 - [Effective Go](https://go.dev/doc/effective_go)
 - [Frequently Asked Questions (FAQ)](https://go.dev/doc/faq)
 
