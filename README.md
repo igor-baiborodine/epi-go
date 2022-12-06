@@ -22,11 +22,13 @@ the [Elements of Programming Interviews](https://elementsofprogramminginterviews
 ### Primitive Types
 
 **Useful Resources**
+
 - [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
 - [Bit Hacking with Go](https://medium.com/learning-the-go-programming-language/bit-hacking-with-go-e0acee258827)
 - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
 
 **Know Your Primitive Types**
+
 You should know very well Go's basic types, namely, [boolean](https://go.dev/ref/spec#Boolean_types), 
 [numeric](https://go.dev/ref/spec#Numeric_types), and [string](https://go.dev/ref/spec#String_types).
 You should also know the utility methods for numeric types in [math](https://pkg.go.dev/math) package.
@@ -42,6 +44,7 @@ You should also know the utility methods for numeric types in [math](https://pkg
 - Be familiar with the key methods in the [math/rand](https://pkg.go.dev/math/rand) package.
 
 **Tasks**
+
 - [X] [Computing the parity of a word](/primitivetypes/parity.go)
 - [X] [Swap bits](/primitivetypes/swapbits.go)
 - [X] [Reverse bits](/primitivetypes/reversebits.go)
@@ -59,6 +62,7 @@ You should also know the utility methods for numeric types in [math](https://pkg
 **Know Your Array Libraries**
 
 **Tasks**
+
 - [ ] The Dutch national flag problem
 - [ ] Increment an arbitrary-precision integer
 - [ ] Multiply two arbitrary-precision integers
