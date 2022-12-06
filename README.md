@@ -1,10 +1,12 @@
-### Elements of Programming Interviews in Go
+### (WIP) Elements of Programming Interviews in Go
 
 Interview problems and solutions presented in this repository are based on
 the [Elements of Programming Interviews](https://elementsofprogramminginterviews.com/).
 
 **Useful resources**
 - [Go Programming Language Documentation Portal](https://go.dev/doc/)
+- [Effective Go](https://go.dev/doc/effective_go)
+- [Frequently Asked Questions (FAQ)](https://go.dev/doc/faq)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -18,11 +20,12 @@ the [Elements of Programming Interviews](https://elementsofprogramminginterviews
 
 ### Primitive Types
 
-**Useful resources**
+#### Useful Resources
 - [Bitwise Operation](https://en.wikipedia.org/wiki/Bitwise_operation)
 - [Bit Hacking with Go](https://medium.com/learning-the-go-programming-language/bit-hacking-with-go-e0acee258827)
 - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
 
+#### Know Your Primitive Types
 You should know very well Go's basic types, namely, [boolean](https://go.dev/ref/spec#Boolean_types), 
 [numeric](https://go.dev/ref/spec#Numeric_types), and [string](https://go.dev/ref/spec#String_types).
 You should also know the utility methods for numeric types in [math](https://pkg.go.dev/math) package.
@@ -36,8 +39,8 @@ You should also know the utility methods for numeric types in [math](https://pkg
 - Know about explicit type conversion between different numeric types, e.g. `float64(42)`, `byte(20)`, numeric types
   to `string`, e.g., `strconv.Itoa(12)`, `string` to numeric types, e.g., `strconv.Atoi("41")`.
 - Be familiar with the key methods in the [math/rand](https://pkg.go.dev/math/rand) package.
-  
-**Tasks**
+
+#### Tasks
 - [X] [Computing the parity of a word](/primitivetypes/parity.go)
 - [X] [Swap bits](/primitivetypes/swapbits.go)
 - [X] [Reverse bits](/primitivetypes/reversebits.go)
@@ -52,7 +55,9 @@ You should also know the utility methods for numeric types in [math](https://pkg
 
 ### Arrays
 
-**Tasks**
+#### Know Your Array Libraries
+
+#### Tasks
 - [ ] The Dutch national flag problem
 - [ ] Increment an arbitrary-precision integer
 - [ ] Multiply two arbitrary-precision integers
