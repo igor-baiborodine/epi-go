@@ -14,12 +14,7 @@ the [Elements of Programming Interviews](https://elementsofprogramminginterviews
 **Table of Contents**
 
 - [Primitive Types](#primitive-types)
-  - [Useful Resources](#useful-resources)
-  - [Know Your Primitive Types](#know-your-primitive-types)
-  - [Tasks](#tasks)
 - [Arrays](#arrays)
-  - [Know Your Array Libraries](#know-your-array-libraries)
-  - [Tasks](#tasks-1)
 - [Strings](#strings)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
