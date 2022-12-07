@@ -37,8 +37,7 @@ You should also know the utility methods for numeric types in [math](https://pkg
   methods in the [math/bits](https://pkg.go.dev/math/bits) package.
 - Know the constants from the `math` package denoting the maximum and minimum values for numeric types,
   e.g., `math.MaxInt`, `math.MaxFloat32`, `math.MinInt`.
-- The key methods for numeric types are `math.Abs(-2)`, `math.Ceil(1.49)`, `math.Floor(1.51)`, `math.Min(-2, -4)`
-  , `math.Max(3.14, 5.16)`, `math.Pow(2, 3)`, and `math.Sqrt(25)`.
+- The key methods for numeric types are `math.Abs(-2)`, `math.Ceil(1.49)`, `math.Floor(1.51)`, `math.Min(-2, -4)`, `math.Max(3.14, 5.16)`, `math.Pow(2, 3)`, and `math.Sqrt(25)`.
 - Know about explicit type conversion between different numeric types, e.g. `float64(42)`, `byte(20)`, numeric types
   to `string`, e.g., `strconv.Itoa(12)`, `string` to numeric types, e.g., `strconv.Atoi("41")`.
 - Be familiar with the key methods in the [math/rand](https://pkg.go.dev/math/rand) package.
@@ -63,27 +62,25 @@ You should also know the utility methods for numeric types in [math](https://pkg
 - [Go Slices: usage and internals](https://go.dev/blog/slices-intro)
 
 **Know Your Array Libraries**
+
 The base [array](https://go.dev/ref/spec#Array_types) type in Go has a fixed size since its length is part of its type.
 Arrays are rarely used directly in Go due to their rigidity. On the other hand,
 the [slice](https://go.dev/ref/spec#Slice_types) type which is backed by an underlying array is more flexible because
 the length is not part of its type. Therefore, slices are more common than arrays. Use arrays when you know the exact
 length you need ahead of time.
 
-- Know the syntax for allocating and initializing an array, i.e., `[3]int`, `[3]int{10, 20, 30}`, `[...]int{10, 20, 30}`
-  , `[12]int{1, 5: 4, 6, 10: 100, 15}`.
+- Know the syntax for allocating and initializing an array, i.e., `[3]int`, `[3]int{10, 20, 30}`, `[...]int{10, 20, 30}`, `[12]int{1, 5: 4, 6, 10: 100, 15}`.
 - Arrays can be compared using `==` and `!=` operators.
 - Know how to allocate a `2D` array, e.g., `[2][3]int`.
 - Array's length can be obtained using the `len` built-in function.
-- Know the syntax for allocating and initializing a slice, e.g., `[]int`, `[]int{}`, `[]int{10, 20, 30}`
-  , `[]int{1, 5: 4, 6, 10: 100, 15}`.
+- Know the syntax for allocating and initializing a slice, e.g., `[]int`, `[]int{}`, `[]int{10, 20, 30}`, `[]int{1, 5: 4, 6, 10: 100, 15}`.
 - Know how to allocate a `2D` slice, e.g., `[][]int`.
 - Know the [difference](https://go.dev/doc/effective_go#allocation_make) between allocating a slice using the `new`
   and `make` functions.
 - Be familiar with slice expressions, e.g., `x[:2]`, `x[1:]`, `x[1:3]`, `x[:]`.  
 - Key built-in functions for slices include `len`, `cap`, `append`, `copy`.
 - Know how to compare slices using `bytes.Equals` for `[]byte` slices and `reflect.DeepEqual` for testing purposes.
-- Be familiar with the functions in the [sort](https://pkg.go.dev/sort) package, e.g., `sort.Ints`, `sort.Float64s`
-  , `sort.Strings`.
+- Be familiar with the functions in the [sort](https://pkg.go.dev/sort) package, e.g., `sort.Ints`, `sort.Float64s`, `sort.Strings`.
 
 **Tasks**
 
