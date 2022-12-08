@@ -63,7 +63,7 @@ You should also know the utility methods for numeric types in [math](https://pkg
 
 **Know Your Array Libraries**
 
-The base [array](https://go.dev/ref/spec#Array_types) type in Go has a fixed size since its length is part of its type.
+The base [array](https://go.dev/ref/spec#Array_types) type in Go has a fixed size, and its length is part of its type.
 Arrays are rarely used directly in Go due to their rigidity. On the other hand,
 the [slice](https://go.dev/ref/spec#Slice_types) type which is backed by an underlying array is more flexible because
 the length is not part of its type. Therefore, slices are more common than arrays. Use arrays when you know the exact
