@@ -84,7 +84,7 @@ length you need ahead of time.
 
 **Tasks**
 
-- [ ] The Dutch national flag problem
+- [X] [The Dutch national flag problem](/arrays/dutchflag.go)
 - [ ] Increment an arbitrary-precision integer
 - [ ] Multiply two arbitrary-precision integers
 - [ ] Advancing through an array
