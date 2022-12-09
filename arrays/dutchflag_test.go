@@ -12,7 +12,10 @@ type dutchflagFn func(s []int, p int) []int
 
 func testDutchflagFn(t *testing.T, fn dutchflagFn) {
 	for _, test := range dutchflagTestData {
-		if got := fn(test.in, test.p); !reflect.DeepEqual(got, test.want) {
+		in := make([]int, len(test.in))
+		copy(in, test.in)
+
+		if got := fn(in, test.p); !reflect.DeepEqual(got, test.want) {
 			t.Errorf("%s(%d, %d) = %d; want %d", fnName(fn), test.in, test.p, got, test.want)
 		}
 	}
@@ -22,7 +25,8 @@ func fnName(i interface{}) string {
 	return runtime.FuncForPC(reflect.ValueOf(i).Pointer()).Name()
 }
 
-func TestDutchflagWithSubArrays(t *testing.T) { testDutchflagFn(t, DutchflagWithSubArrays) }
+func TestDutchflagSubarrays(t *testing.T) { testDutchflagFn(t, DutchflagSubarrays) }
+func TestDutchflagTwoPasses(t *testing.T) { testDutchflagFn(t, DutchflagTwoPasses) }
 
 func benchDutchflagFn(b *testing.B, fn dutchflagFn) {
 	b.StopTimer()
@@ -41,7 +45,8 @@ func benchDutchflagFn(b *testing.B, fn dutchflagFn) {
 	}
 }
 
-func BenchmarkDutchflagWithSubArrays(b *testing.B) { benchDutchflagFn(b, DutchflagWithSubArrays) }
+func BenchmarkDutchflagWithSubArrays(b *testing.B) { benchDutchflagFn(b, DutchflagSubarrays) }
+func BenchmarkDutchflagTwoPasses(b *testing.B)     { benchDutchflagFn(b, DutchflagTwoPasses) }
 
 var dutchflagTestData = []struct {
 	in   []int
