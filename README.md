@@ -60,6 +60,7 @@ You should also know the utility methods for numeric types in [math](https://pkg
 
 **Useful Resources**
 - [Go Slices: usage and internals](https://go.dev/blog/slices-intro)
+- [Slice Tricks](https://github.com/golang/go/wiki/SliceTricks)
 
 **Know Your Array Libraries**
 
@@ -85,10 +86,10 @@ length you need ahead of time.
 **Tasks**
 
 - [X] [The Dutch national flag problem](/arrays/dutchflag.go)
-- [ ] Increment an arbitrary-precision integer
+- [X] [Increment an arbitrary-precision integer](/arrays/plusone.go)
 - [ ] Multiply two arbitrary-precision integers
 - [ ] Advancing through an array
-- [ ] Delete duplicates from a sorted array
+- [X] [Delete duplicates from a sorted array](/arrays/duplicates.go)
 - [ ] Buy and sell a stock once
 - [ ] Buy and sell a stock twice
 - [ ] Enumerate all primes to `n`
