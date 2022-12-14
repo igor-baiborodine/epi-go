@@ -171,7 +171,7 @@ WIP
 
 - [ ] Implement a stack with max API
 - [ ] Evaluate RPN expressions
-- [ ] Test a string over "{,},(,),[,]" for well-formedness
+- [ ] Test a string over `{,},(,),[,]` for well-formedness
 - [ ] Normalize path names
 - [ ] Compute buildings with a sunset view
 - [ ] Compute binary tree nodes in order of increasing depth
