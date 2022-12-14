@@ -20,8 +20,21 @@ func TestDeleteduplicatesSubarray(t *testing.T) { testDeleteduplicatesFn(t, Dele
 func TestDeleteDuplicatesShift(t *testing.T)    { testDeleteduplicatesFn(t, DeleteDuplicatesShift) }
 
 func benchDeleteDuplicatesFn(b *testing.B, fn deleteduplicatesFn) {
+	b.StopTimer()
+	s := make([]int, math.MaxInt16)
+
+	// populate slice with duplicated odd numbers
+	for i := 1; i < len(s); i++ {
+		if i&1 == 0 { // odd
+			s[i] = i
+		} else {
+			s[i] = i - 1
+		}
+	}
+	b.StartTimer()
+
 	for i := 0; i < b.N; i++ {
-		fn(make([]int, math.MaxInt16))
+		fn(s)
 	}
 }
 
