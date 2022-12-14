@@ -124,7 +124,7 @@ length you need ahead of time.
 
 - Know operators for manipulating strings: compare(`==`, `!=`), order(`>`, `>=`, `<`, `<=`), and concatenate(`+`).
 - Important to remember that strings in Go are immutable.
-- Know that index expressions to extract a single value, i.g., `s[4]`, and slice expressions to extract substrings, e.g., `s[3:5]`, `s[:8]`, `s[2:]`, can be used only for strings only containing characters that take up one byte, e.g., [ASCII](https://en.wikipedia.org/wiki/ASCII) characters.
+- Know that index expressions to extract a single value, i.g., `s[4]`, and slice expressions to extract substrings, e.g., `s[3:5]`, `s[:8]`, `s[2:]`, can be used only for strings containing characters that take up one byte, e.g., [ASCII](https://en.wikipedia.org/wiki/ASCII) characters.
 - Know what code point(rune) is, and how to iterate through code points in a given string using the `range` clause.
 - Know how to do conversions between strings, runes, and bytes.
 - Be familiar with the functions in the [strings](https://pkg.go.dev/strings) and [unicode/utf8](https://pkg.go.dev/unicode/utf8) packages, e.g., `strings.ToUpper`, `strings.Contains`, `strings.Join`, `strings.Split`, `strings.ReplaceAll`.
