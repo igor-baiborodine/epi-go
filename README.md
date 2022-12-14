@@ -106,6 +106,9 @@ length you need ahead of time.
 - [ ] Compute rows in Pascal's Triangle
 
 ### Strings
+WIP
+
+**Know Your String Libraries**
 
 **Tasks**
 
@@ -122,3 +125,241 @@ length you need ahead of time.
 - [ ] Write a string sinusoidally
 - [ ] Implement run-length encoding
 - [ ] Find the first occurrence of a substring 
+
+### Linked Lists
+WIP
+
+**Know Your Linked Lists Libraries**
+
+**Tasks**
+
+- [ ] Merge two sorted lists
+- [ ] Reverse a single sublist
+- [ ] Test for cyclicity
+- [ ] Test for overlapping lists - lists are cycle-free
+- [ ] Test for overlapping lists - lists may have cycles
+- [ ] Delete a node from a singly linked list
+- [ ] Remove the kth last element from a list
+- [ ] Remove duplicates from a sorted list
+- [ ] Implement cyclic right shift for singly linked lists
+- [ ] Implement even-odd merge
+- [ ] Test whether a singly linked list is palindromic
+- [ ] Implement list pivoting
+- [ ] Add list-based integers
+
+### Stacks and Queues
+WIP
+
+**Know Your Queue Libraries**
+
+**Know Your Stack Libraries**
+
+**Tasks**
+
+- [ ] Implement a stack with max API
+- [ ] Evaluate RPN expressions
+- [ ] Test a string over "{,},(,),[,]" for well-formedness
+- [ ] Normalize path names
+- [ ] Compute buildings with a sunset view
+- [ ] Compute binary tree nodes in order of increasing depth
+- [ ] Implement a circular queue
+- [ ] Implement a queue using stacks
+- [ ] Implement a queue with max API
+
+### Binary Trees
+WIP
+
+**Tasks**
+
+- [ ] Test if a binary tree is height-balanced
+- [ ] Test if a binary tree is symmetric
+- [ ] Compute the lowest common ancestor in a binary tree
+- [ ] Compute the LCA when nodes have parent pointers
+- [ ] Sum the root-to-leaf paths in a binary tree
+- [ ] Find a root to leaf path with specified sum
+- [ ] Implement an inorder traversal without recursion
+- [ ] Implement a preorder traversal without recursion
+- [ ] Compute the ***k***th node in an inorder traversal
+- [ ] Compute the successor
+- [ ] Implement an inorder traversal with ***O***(1) space .
+- [ ] Reconstruct a binary tree from traversal data
+- [ ] Reconstruct a binary tree from a preorder traversal with markers
+- [ ] Form a linked list from the leaves of a binary tree .
+- [ ] Compute the exterior of a binary tree .
+- [ ] Compute the right sibling tree .
+
+### Heaps
+WIP
+
+**Know Your Heap Libraries**
+
+**Tasks**
+
+- [ ] Merge sorted files
+- [ ] Sort an increasing-decreasing array
+- [ ] Sort an almost-sorted array
+- [ ] Compute the ***k*** closest stars
+- [ ] Compute the median of online data .
+- [ ] Compute the ***k*** largest elements in a max-heap
+
+### Searching
+WIP
+
+**Know Your Searching Libraries**
+
+**Tasks**
+
+- [ ] Search a sorted array for first occurrence of ***k***
+- [ ] Search a sorted array for entry equal to its index
+- [ ] Search a cyclically sorted array
+- [ ] Compute the integer square root
+- [ ] Compute the real square root
+- [ ] Search in a `2D` sorted array
+- [ ] Find the min and max simultaneously
+- [ ] Find the ***k***th largest element
+- [ ] Find the missing IP address
+- [ ] Find the duplicate and missing elements
+
+### Hash Tables
+WIP
+
+**Know Your Hash Tables Libraries**
+
+**Tasks**
+- [ ] Test for palindromic permutations
+- [ ] Is an anonymous letter constructible?
+- [ ] Implement an ISBN cache
+- [ ] Compute the LCA, optimizing for close ancestors
+- [ ] Find the nearest repeated entries in an array
+- [ ] Find the smallest subarray covering all values
+- [ ] Find the smallest subarray sequentially covering all values
+- [ ] Find the longest subarray with distinct entries
+- [ ] Find the length of a longest contained interval
+- [ ] Compute all string decompositions
+- [ ] Test the Collatz conjecture
+- [ ] Implement a hash function for chess
+
+### Sorting
+WIP
+
+**Know Your Sorting Libraries**
+
+**Tasks**
+
+- [ ] Compute the intersection of two sorted arrays
+- [ ] Merge two sorted arrays
+- [ ] Remove first-name duplicates
+- [ ] Smallest non-constructible value
+- [ ] Render a calendar
+- [ ] Merging intervals
+- [ ] Compute the union of intervals
+- [ ] Partitioning and sorting an array with many repeated entries
+- [ ] Team photo day-1
+- [ ] Implement a fast sorting algorithm for lists
+- [ ] Compute a salary threshold
+
+### Binary Search Trees
+WIP
+
+**Know Your Binary Search Tree Libraries**
+
+**Tasks**
+
+- [ ] Test if a binary tree satisfies the BST property
+- [ ] Find the first key greater than a given value in a BST
+- [ ] Find the ***k*** largest elements in a BST
+- [ ] Compute the LCA in a BST
+- [ ] Reconstruct a BST from traversal data
+- [ ] Find the closest entries in three sorted arrays
+- [ ] Enumerate numbers of the form ***a*** + ***b***√2
+- [ ] Build a minimum height BST from a sorted array
+- [ ] Test if three BST nodes are totally ordered
+- [ ] The range lookup problem
+- [ ] Add credits
+
+### Recursion
+WIP
+
+**Know Your Recursion Libraries**
+
+**Tasks**
+
+- [ ] The Towers of Hanoi problem
+- [ ] Generate all non-attacking placements of ***n***-Queens
+- [ ] Generate permutations
+- [ ] Generate the power set
+- [ ] Generate all subsets of size ***k***
+- [ ] Generate strings of matched parens
+- [ ] Generate palindromic decompositions
+- [ ] Generate binary trees
+- [ ] Implement a Sudoku solver
+- [ ] Compute a Gray code
+
+### Dynamic Programming
+WIP
+
+**Know Your Dynamic Programming Libraries**
+
+**Tasks**
+
+- [ ] Count the number of score combinations
+- [ ] Compute the Levenshtein distance
+- [ ] Count the number of ways to traverse a `2D` array
+- [ ] Compute the binomial coefficients
+- [ ] Search for a sequence in a `2D` array
+- [ ] The knapsack problem
+- [ ] The `bedbathandbeyond.com` problem
+- [ ] Find the minimum weight path in a triangle
+- [ ] Pick up coins for maximum gain
+- [ ] Count the number of moves to climb stairs
+- [ ] The pretty printing problem
+- [ ] Find the longest non-decreasing subsequence
+
+### Greedy Algorithms and Invariants
+WIP
+
+**Know Your Greedy Algorithms and Invariants Libraries**
+
+**Tasks**
+
+- [ ] Compute an optimum assignment of tasks
+- [ ] Schedule to minimize waiting time
+- [ ] The interval covering problem
+- [ ] The 3-sum problem
+- [ ] Find the majority element
+- [ ] The gasup problem
+- [ ] Compute the maximum water trapped by a pair of vertical lines
+- [ ] Compute the largest rectangle under the skyline
+ 
+### Graphs
+WIP
+
+**Know Your Graphs Libraries**
+
+**Tasks**
+
+- [ ] Search amaze
+- [ ] Paint a Boolean matrix
+- [ ] Compute enclosed regions
+- [ ] Deadlock detection
+- [ ] Clone a graph
+- [ ] Making wired connections
+- [ ] Transform one string to another
+- [ ] Team photo day-2
+
+### Parallel Computing
+WIP
+
+**Know Your Parallel Computing Libraries**
+
+**Tasks**
+
+- [ ] Implement caching for a multi-threaded dictionary
+- [ ] Analyze two unsynchronized interleaved threads
+- [ ] Implement synchronization for two interleaving threads
+- [ ] Implement a thread pool
+- [ ] Deadlock
+- [ ] The readers-writers problem
+- [ ] The readers-writers problem with write preference
+- [ ] Implement a Timer class
+- [ ] Test the Collatz conjecture in parallel
