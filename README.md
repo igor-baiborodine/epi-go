@@ -53,7 +53,7 @@ You should also know the utility methods for numeric types in [math](https://pkg
 - The key methods for numeric types are `math.Abs(-2)`, `math.Ceil(1.49)`, `math.Floor(1.51)`, `math.Min(-2, -4)`, `math.Max(3.14, 5.16)`, `math.Pow(2, 3)`, and `math.Sqrt(25)`.
 - Know about explicit type conversion between different numeric types, e.g. `float64(42)`, `byte(20)`, numeric types
   to `string`, e.g., `strconv.Itoa(12)`, `string` to numeric types, e.g., `strconv.Atoi("41")`.
-- Be familiar with the key methods in the [math/rand](https://pkg.go.dev/math/rand) package.
+- Be familiar with the key functions in the [math/rand](https://pkg.go.dev/math/rand) package.
 
 **Tasks**
 
@@ -119,10 +119,16 @@ length you need ahead of time.
 - [ ] Compute rows in Pascal's Triangle
 
 ### Strings
-WIP
 
 **Know Your String Libraries**
 
+- Know operators for manipulating strings: compare(`==`, `!=`), order(`>`, `>=`, `<`, `<=`), and concatenate(`+`).
+- Important to remember that strings in Go are immutable.
+- Know that index expressions to extract a single value, i.g., `s[4]`, and slice expressions to extract substrings, e.g., `s[3:5]`, `s[:8]`, `s[2:]`, can be used only for strings only containing characters that take up one byte, e.g., [ASCII](https://en.wikipedia.org/wiki/ASCII) characters.
+- Know what code point(rune) is, and how to iterate through code points in a given string using the `range` clause.
+- Know how to do conversions between strings, runes, and bytes.
+- Be familiar with the functions in the [strings](https://pkg.go.dev/strings) and [unicode/utf8](https://pkg.go.dev/unicode/utf8) packages, e.g., `strings.ToUpper`, `strings.Contains`, `strings.Join`, `strings.Split`, `strings.ReplaceAll`.
+  
 **Tasks**
 
 - [ ] Interconvert strings and integers
