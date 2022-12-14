@@ -16,6 +16,19 @@ the [Elements of Programming Interviews](https://elementsofprogramminginterviews
 - [Primitive Types](#primitive-types)
 - [Arrays](#arrays)
 - [Strings](#strings)
+- [Linked Lists](#linked-lists)
+- [Stacks and Queues](#stacks-and-queues)
+- [Binary Trees](#binary-trees)
+- [Heaps](#heaps)
+- [Searching](#searching)
+- [Hash Tables](#hash-tables)
+- [Sorting](#sorting)
+- [Binary Search Trees](#binary-search-trees)
+- [Recursion](#recursion)
+- [Dynamic Programming](#dynamic-programming)
+- [Greedy Algorithms and Invariants](#greedy-algorithms-and-invariants)
+- [Graphs](#graphs)
+- [Parallel Computing](#parallel-computing)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
