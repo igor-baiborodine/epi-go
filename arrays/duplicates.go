@@ -16,6 +16,8 @@ func DeleteDuplicatesSubarray(s []int) []int {
 	return set
 }
 
+// DeleteDuplicatesShift removes repeated elements from a sorted slice.
+// The time complexity is O(n**n) and space complexity is O(1).
 func DeleteDuplicatesShift(s []int) []int {
 	if len(s) == 0 {
 		return s
