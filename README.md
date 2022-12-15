@@ -4,6 +4,7 @@ Interview problems and solutions presented in this repository are based on
 the [Elements of Programming Interviews](https://elementsofprogramminginterviews.com/).
 
 **Useful resources**
+
 - [Go Programming Language Documentation Portal](https://go.dev/doc/)
 - [Go Programming Language Specification](https://go.dev/ref/spec)
 - [Effective Go](https://go.dev/doc/effective_go)
@@ -57,14 +58,14 @@ You should also know the utility methods for numeric types in [math](https://pkg
 
 **Tasks**
 
-- [X] [Computing the parity of a word](/primitivetypes/parity.go)
-- [X] [Swap bits](/primitivetypes/swapbits.go)
-- [X] [Reverse bits](/primitivetypes/reversebits.go)
+- [X] [Computing the parity of a word](/primitivetypes/parity.go), [tests](/primitivetypes/parity_test.go)
+- [X] [Swap bits](/primitivetypes/swapbits.go), [tests](/primitivetypes/swapbits_test.go)
+- [X] [Reverse bits](/primitivetypes/reversebits.go), [tests](/primitivetypes/reversebits_test.go)
 - [ ] Find the closest integer with the same weight
 - [ ] Compute `x*y` without arithmetical operators
 - [ ] Compute `x/y`
 - [ ] Compute `x**y`
-- [X] [Reverse digits](/primitivetypes/reversedigits.go)
+- [X] [Reverse digits](/primitivetypes/reversedigits.go), [tests](/primitivetypes/reversebits_test.go)
 - [ ] Check if a decimal integer is a palindrome
 - [ ] Generate uniform random numbers
 - [ ] Rectangle intersection
@@ -72,6 +73,7 @@ You should also know the utility methods for numeric types in [math](https://pkg
 ### Arrays
 
 **Useful Resources**
+
 - [Go Slices: usage and internals](https://go.dev/blog/slices-intro)
 - [Slice Tricks](https://github.com/golang/go/wiki/SliceTricks)
 
@@ -98,11 +100,11 @@ length you need ahead of time.
 
 **Tasks**
 
-- [X] [The Dutch national flag problem](/arrays/dutchflag.go)
-- [X] [Increment an arbitrary-precision integer](/arrays/plusone.go)
+- [X] [The Dutch national flag problem](/arrays/dutchflag.go), [tests](/arrays/dutchflag_test.go)
+- [X] [Increment an arbitrary-precision integer](/arrays/plusone.go), [tests](/arrays/plusone_test.go)
 - [ ] Multiply two arbitrary-precision integers
 - [ ] Advancing through an array
-- [X] [Delete duplicates from a sorted array](/arrays/duplicates.go)
+- [X] [Delete duplicates from a sorted array](/arrays/duplicates.go), [tests](/arrays/duplicates_test.go)
 - [ ] Buy and sell a stock once
 - [ ] Buy and sell a stock twice
 - [ ] Enumerate all primes to `n`
@@ -120,12 +122,16 @@ length you need ahead of time.
 
 ### Strings
 
+**Useful Resources**
+
+- [Strings, bytes, runes and characters in Go](https://go.dev/blog/strings)
+
 **Know Your String Libraries**
 
 - Know operators for manipulating strings: compare(`==`, `!=`), order(`>`, `>=`, `<`, `<=`), and concatenate(`+`).
 - Important to remember that strings in Go are immutable.
 - Know that index expressions to extract a single value, i.g., `s[4]`, and slice expressions to extract substrings, e.g., `s[3:5]`, `s[:8]`, `s[2:]`, can be used only for strings containing characters that take up one byte, e.g., [ASCII](https://en.wikipedia.org/wiki/ASCII) characters.
-- Know what code point(rune) is, and how to iterate through code points in a given string using the `range` clause.
+- Know what code point([rune](https://go.dev/ref/spec#Rune_literals)) is, and how to iterate through code points in a given string using the `range` clause.
 - Know how to do conversions between strings, runes, and bytes.
 - Be familiar with the functions in the [strings](https://pkg.go.dev/strings) and [unicode/utf8](https://pkg.go.dev/unicode/utf8) packages, e.g., `strings.ToUpper`, `strings.Contains`, `strings.Join`, `strings.Split`, `strings.ReplaceAll`.
   
@@ -134,8 +140,8 @@ length you need ahead of time.
 - [ ] Interconvert strings and integers
 - [ ] Base conversion
 - [ ] Compute the spreadsheet column encoding
-- [ ] Replace and remove
-- [ ] Test palindromicity
+- [X] [Replace and remove](/strings/replaceremove.go), [tests](/strings/replaceremove_test.go)
+- [X] [Test palindromicity](/strings/palindromicity.go), [tests](/strings/palindromicity_test.go)
 - [ ] Reverse all the words in a sentence
 - [ ] Compute all mnemonics for a phone number
 - [ ] The look-and-say problem
@@ -143,7 +149,7 @@ length you need ahead of time.
 - [ ] Compute all valid IP addresses
 - [ ] Write a string sinusoidally
 - [ ] Implement run-length encoding
-- [ ] Find the first occurrence of a substring 
+- [X] [Find the first occurrence of a substring](/strings/findfirst.go), [tests](/strings/findfirst_test.go) 
 
 ### Linked Lists
 WIP
