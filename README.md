@@ -146,10 +146,10 @@ length you need ahead of time.
 - [ ] Compute all mnemonics for a phone number
 - [ ] The look-and-say problem
 - [ ] Convert from Roman to decimal
-- [ ] Compute all valid IP addresses
+- [X] [Compute all valid IP addresses](/strings/ipaddress.go), [tests](/strings/ipaddress_test.go)
 - [ ] Write a string sinusoidally
 - [ ] Implement run-length encoding
-- [X] [Find the first occurrence of a substring](/strings/findfirst.go), [tests](/strings/findfirst_test.go) 
+- [ ] Find the first occurrence of a substring 
 
 ### Linked Lists
 WIP
