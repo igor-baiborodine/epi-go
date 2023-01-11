@@ -7,9 +7,9 @@ the [Elements of Programming Interviews](https://elementsofprogramminginterviews
 
 - [Go Programming Language Documentation Portal](https://go.dev/doc/)
 - [Go Programming Language Specification](https://go.dev/ref/spec)
+- [Go Wiki](https://github.com/golang/go/wiki)
 - [Effective Go](https://go.dev/doc/effective_go)
 - [Frequently Asked Questions (FAQ)](https://go.dev/doc/faq)
-- [Go Wiki](https://github.com/golang/go/wiki)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
