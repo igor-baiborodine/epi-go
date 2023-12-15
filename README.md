@@ -63,7 +63,7 @@ You should also know the utility methods for numeric types in [math](https://pkg
 - [X] [Swap bits](/primitivetypes/swapbits.go), [tests](/primitivetypes/swapbits_test.go)
 - [X] [Reverse bits](/primitivetypes/reversebits.go), [tests](/primitivetypes/reversebits_test.go)
 - [X] [Find the closest integer with the same weight](/primitivetypes/closestint.go), [tests](/primitivetypes/closestint_test.go) 
-- [ ] Compute `x*y` without arithmetical operators
+- [X] [Compute `x*y` without arithmetical operators](/primitivetypes/computemultiply.go), [test](/primitivetypes/computemultiply_test.go)
 - [ ] Compute `x/y`
 - [ ] Compute `x**y`
 - [X] [Reverse digits](/primitivetypes/reversedigits.go), [tests](/primitivetypes/reversebits_test.go)
