@@ -65,7 +65,7 @@ You should also know the utility methods for numeric types in [math](https://pkg
 - [X] [Find the closest integer with the same weight](/primitivetypes/closestint.go), [tests](/primitivetypes/closestint_test.go) 
 - [X] [Compute `x*y` without arithmetical operators](/primitivetypes/computemultiply.go), [tests](/primitivetypes/computemultiply_test.go)
 - [X] [Compute `x/y`](/primitivetypes/computedivide.go), [tests](/primitivetypes/computedivide_test.go)
-- [ ] Compute `x**y`
+- [X] [Compute `x**y`](/primitivetypes/computepower.go), [tests](/primitivetypes/computepower_test.go)
 - [X] [Reverse digits](/primitivetypes/reversedigits.go), [tests](/primitivetypes/reversebits_test.go)
 - [ ] Check if a decimal integer is a palindrome
 - [ ] Generate uniform random numbers
