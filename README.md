@@ -68,7 +68,7 @@ You should also know the utility methods for numeric types in [math](https://pkg
 - [X] [Compute `x**y`](/primitivetypes/computepower.go), [tests](/primitivetypes/computepower_test.go)
 - [X] [Reverse digits](/primitivetypes/reversedigits.go), [tests](/primitivetypes/reversebits_test.go)
 - [X] [Check if a decimal integer is a palindrome](/primitivetypes/palindromenumber.go), [tests](/primitivetypes/palindromenumber_test.go)
-- [ ] Generate uniform random numbers
+- [X] [Generate uniform random numbers](/primitivetypes/uniformrandom.go), [tests](/primitivetypes/uniformrandom_test.go)
 - [ ] Rectangle intersection
 
 ### Arrays
