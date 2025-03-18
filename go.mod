@@ -1,3 +1,3 @@
 module github.com/igor-baiborodine/epi-go
 
-go 1.21
+go 1.24
