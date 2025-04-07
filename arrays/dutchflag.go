@@ -1,9 +1,19 @@
 package arrays
 
-// DutchflagSubarrays reorders slice so that all elements
-// less than s[i] appear first, followed by elements equal to s[i],
-// followed by elements greater than s[i].
-// The time complexity is O(n) and space complexity is O(n).
+// DutchflagSubarrays segregates elements of the slice s into three groups:
+// elements less than, equal to, and greater than the pivot s[p].
+// It returns a new slice where all elements less than the pivot come first,
+// followed by elements equal to the pivot, and finally elements greater than the pivot.
+//
+// Parameters:
+// - s: Slice of integers to be partitioned.
+// - p: Index of the pivot element.
+//
+// Returns:
+// - A new reordered slice after partitioning.
+//
+// Time Complexity: O(n), where n is the length of the slice s.
+// Space Complexity: O(n), due to the use of additional slices.
 func DutchflagSubarrays(s []int, p int) []int {
 	var r, w, b []int
 
@@ -20,10 +30,20 @@ func DutchflagSubarrays(s []int, p int) []int {
 	return append(s, b...)
 }
 
-// DutchflagTwoPasses reorders slice so that all elements
-// less than s[i] appear first, followed by elements equal to s[i],
-// followed by elements greater than s[i].
-// The time complexity is O(n) and space complexity is O(1).
+// DutchflagTwoPasses rearranges elements of the slice s such that all elements
+// less than the pivot s[p] come first, followed by elements equal to the pivot,
+// and finally elements greater than the pivot. It modifies and returns the input
+// slice in-place using two passes.
+//
+// Parameters:
+// - s: Slice of integers to be partitioned.
+// - p: Index of the pivot element.
+//
+// Returns:
+// - The same slice s after in-place partitioning.
+//
+// Time Complexity: O(n), where n is the length of the slice s.
+// Space Complexity: O(1), as no additional space is used aside from variables.
 func DutchflagTwoPasses(s []int, p int) []int {
 	pivot, smaller := s[p], 0
 	// First pass: group elements smaller than pivot
