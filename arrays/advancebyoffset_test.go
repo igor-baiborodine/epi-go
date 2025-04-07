@@ -8,7 +8,7 @@ import (
 
 func TestAdvanceByOffset(t *testing.T) {
 	for _, test := range AdvanceByOffsetTestData {
-		if got := AdvanceByOffsets(test.s); got != test.want {
+		if got := CanReachEnd(test.s); got != test.want {
 			t.Errorf("AdvanceByOffset(%d) = %t; want %t", test.s, got, test.want)
 		}
 	}
@@ -16,7 +16,7 @@ func TestAdvanceByOffset(t *testing.T) {
 
 func BenchmarkAdvanceByOffset(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		AdvanceByOffsets(intToIntSlice(math.MaxInt))
+		CanReachEnd(intToIntSlice(math.MaxInt))
 	}
 }
 
