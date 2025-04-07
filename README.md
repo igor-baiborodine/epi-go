@@ -108,7 +108,7 @@ Use arrays when you know the exact length you need ahead of time.
 - [X] [The Dutch national flag problem](/arrays/dutchflag.go), [tests](/arrays/dutchflag_test.go)
 - [X] [Increment an arbitrary-precision integer](/arrays/plusone.go), [tests](/arrays/plusone_test.go)
 - [X] [Multiply two arbitrary-precision integers](/arrays/multiply2ints.go), [tests](/arrays/multiply2ints_test.go)
-- [ ] Advancing through an array
+- [X] [Advancing through an array](/arrays/advancebyoffsets.go), [tests](/arrays/advancebyoffset_test.go)
 - [X] [Delete duplicates from a sorted array](/arrays/duplicates.go), [tests](/arrays/duplicates_test.go)
 - [ ] Buy and sell a stock once
 - [ ] Buy and sell a stock twice
