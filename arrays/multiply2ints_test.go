@@ -17,9 +17,14 @@ func TestMultiply(t *testing.T) {
 }
 
 func BenchmarkComputeMultiply(b *testing.B) {
+	s1 := intToInt8Slice(math.MaxInt32)
+	s2 := intToInt8Slice(math.MaxInt64)
+	b.ResetTimer()
+
 	for i := 0; i < b.N; i++ {
-		Multiply2Ints(intToInt8Slice(math.MaxInt32), intToInt8Slice(math.MaxInt32))
+		Multiply2Ints(s1, s2)
 	}
+	b.ReportAllocs()
 }
 
 func intToInt8Slice(num int) []int8 {

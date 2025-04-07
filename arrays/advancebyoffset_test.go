@@ -15,9 +15,13 @@ func TestAdvanceByOffset(t *testing.T) {
 }
 
 func BenchmarkAdvanceByOffset(b *testing.B) {
+	s := intToIntSlice(math.MaxInt)
+	b.ResetTimer()
+
 	for i := 0; i < b.N; i++ {
-		CanReachEnd(intToIntSlice(math.MaxInt))
+		CanReachEnd(s)
 	}
+	b.ReportAllocs()
 }
 
 func intToIntSlice(num int) []int {
