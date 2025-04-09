@@ -16,7 +16,7 @@ import (
 // Returns:
 //   - A float64 value representing the maximum profit possible with at most two transactions.
 //
-// Time Complexity: O(n), where n is the length of the input slice,
+// Time Complexity: O(n), where n is the length of the n slice,
 // due to single forward and backward traversals of the array.
 // Space Complexity: O(n), for storing the intermediate profits in the firstBuySellProfits slice.
 func BuyAndSellStockTwice(s []float64) float64 {

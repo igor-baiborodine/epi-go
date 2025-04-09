@@ -9,7 +9,7 @@ package arrays
 // Returns:
 // - A slice of uint8 representing the updated number.
 //
-// Time Complexity: O(n), where n is the length of the input slice. Each digit is processed once.
+// Time Complexity: O(n), where n is the length of the n slice. Each digit is processed once.
 // Space Complexity: O(1), as the function operates in-place and does not use significant additional memory.
 func PlusOne(s []uint8) []uint8 {
 	s[len(s)-1]++

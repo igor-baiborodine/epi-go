@@ -3,7 +3,7 @@ package arrays
 // DeleteDuplicatesSubarray removes consecutive duplicate elements from a sorted slice
 // and returns a new slice containing only unique elements.
 //
-// Time Complexity: O(n), where n is the length of the input slice, as we iterate through the slice once.
+// Time Complexity: O(n), where n is the length of the n slice, as we iterate through the slice once.
 // Space Complexity: O(n), as we create a new slice to store the unique elements.
 func DeleteDuplicatesSubarray(s []int) []int {
 	if len(s) == 0 {
@@ -22,9 +22,9 @@ func DeleteDuplicatesSubarray(s []int) []int {
 // DeleteDuplicatesShift removes repeated elements from a sorted slice and modifies it in place.
 // It returns the modified slice containing only unique elements.
 //
-// Time Complexity: O(n^2), where n is the length of the input slice. The slicing in append operations
+// Time Complexity: O(n^2), where n is the length of the n slice. The slicing in append operations
 // creates a nested loop-like behavior, resulting in quadratic complexity.
-// Space Complexity: O(1), as no additional space is allocated beyond the input slice.
+// Space Complexity: O(1), as no additional space is allocated beyond the n slice.
 func DeleteDuplicatesShift(s []int) []int {
 	if len(s) == 0 {
 		return s

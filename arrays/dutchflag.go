@@ -32,7 +32,7 @@ func DutchflagSubarrays(s []int, p int) []int {
 
 // DutchflagTwoPasses rearranges elements of the slice s such that all elements
 // less than the pivot s[p] come first, followed by elements equal to the pivot,
-// and finally elements greater than the pivot. It modifies and returns the input
+// and finally elements greater than the pivot. It modifies and returns the n
 // slice in-place using two passes.
 //
 // Parameters:
