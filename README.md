@@ -111,7 +111,7 @@ Use arrays when you know the exact length you need ahead of time.
 - [X] [Advancing through an array](/arrays/advancebyoffsets.go), [tests](/arrays/advancebyoffset_test.go)
 - [X] [Delete duplicates from a sorted array](/arrays/duplicates.go), [tests](/arrays/duplicates_test.go)
 - [X] [Buy and sell a stock once](/arrays/buyandsellstock.go), [tests](/arrays/buyandsellstock_test.go)
-- [ ] Buy and sell a stock twice
+- [X] [Buy and sell a stock twice](/arrays/buyandsellstocktwice.go), [tests](/arrays/buyandsellstocktwice_test.go)
 - [ ] Enumerate all primes to `n`
 - [ ] Permute the elements of an array
 - [ ] Compute the next permutation
