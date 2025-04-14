@@ -5,11 +5,11 @@ import (
 	"time"
 )
 
-// OfflineRandomSampling performs random sampling of n elements from the input slice s.
+// OfflineRandomSampling performs random sampling of k elements from the input slice s.
 // It modifies the original slice s in the process by swapping elements.
 //
-// Time Complexity: O(n), where n is the number of elements to sample. This is because the function
-// performs n iterations, and each iteration involves a constant amount of work (swapping elements).
+// Time Complexity: O(k), where k is the number of elements to sample. This is because the function
+// performs k iterations, and each iteration involves a constant amount of work (swapping elements).
 //
 // Space Complexity: O(1), as the function operates in-place on the input slice and does not
 // require any additional data structures.
