@@ -116,7 +116,7 @@ Use arrays when you know the exact length you need ahead of time.
 - [X] [Permute the elements of an array](/arrays/applypermutation.go), [tests](/arrays/applypermutation_test.go)
 - [X] [Compute the next permutation](/arrays/nextpermutation.go), [tests](/arrays/nextpermutation_test.go)
 - [X] [Sample offline data](/arrays/offlinesampling.go), [tests](/arrays/offlinesampling_test.go)
-- [ ] Sample online data
+- [X] [Sample online data](arrays/onlinesampling.go), [tests](/arrays/onlinesampling_test.go)
 - [ ] Compute a random permutation
 - [ ] Compute a random subset
 - [ ] Generate nonuniform random numbers

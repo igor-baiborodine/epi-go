@@ -3,17 +3,19 @@ package arrays
 import (
 	"fmt"
 	"testing"
+
+	"github.com/ipfs/boxo/routing/http/types/iter"
 )
 
-func TestOfflineRandomSampling(t *testing.T) {
-	for _, test := range offlineRandomSamplingTestData {
+func TestOnlineRandomSampling(t *testing.T) {
+	for _, test := range onlineRandomSamplingTestData {
 		fmt.Print("k:", test.k, ", s:", test.s)
-		got := OfflineRandomSampling(test.k, test.s)
+		got := OnlineRandomSampling(test.k, iter.FromSlice(test.s))
 		fmt.Println(", got:", got)
 	}
 }
 
-var offlineRandomSamplingTestData = []struct {
+var onlineRandomSamplingTestData = []struct {
 	k int
 	s []int
 }{
