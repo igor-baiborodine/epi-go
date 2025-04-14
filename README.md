@@ -114,7 +114,7 @@ Use arrays when you know the exact length you need ahead of time.
 - [X] [Buy and sell a stock twice](/arrays/buyandsellstocktwice.go), [tests](/arrays/buyandsellstocktwice_test.go)
 - [X] [Enumerate all primes to `n`](/arrays/primesieve.go), [tests](/arrays/primesieve_test.go)
 - [X] [Permute the elements of an array](/arrays/applypermutation.go), [tests](/arrays/applypermutation_test.go)
-- [ ] Compute the next permutation
+- [X] [Compute the next permutation](/arrays/nextpermutation.go), [tests](/arrays/nextpermutation_test.go)
 - [ ] Sample offline data
 - [ ] Sample online data
 - [ ] Compute a random permutation
