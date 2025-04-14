@@ -115,7 +115,7 @@ Use arrays when you know the exact length you need ahead of time.
 - [X] [Enumerate all primes to `n`](/arrays/primesieve.go), [tests](/arrays/primesieve_test.go)
 - [X] [Permute the elements of an array](/arrays/applypermutation.go), [tests](/arrays/applypermutation_test.go)
 - [X] [Compute the next permutation](/arrays/nextpermutation.go), [tests](/arrays/nextpermutation_test.go)
-- [X] [Sample offline data](/arrays/randomsampling.go), [tests](/arrays/randomsampling_test.go)
+- [X] [Sample offline data](/arrays/offlinesampling.go), [tests](/arrays/offlinesampling_test.go)
 - [ ] Sample online data
 - [ ] Compute a random permutation
 - [ ] Compute a random subset
