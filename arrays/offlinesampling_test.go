@@ -7,7 +7,7 @@ import (
 
 func TestOfflineRandomSampling(t *testing.T) {
 	for _, test := range offlineRandomSamplingTestData {
-		fmt.Print("k:", test.k, ", s:", test.s)
+		fmt.Print("n:", test.k, ", s:", test.s)
 		got := OfflineRandomSampling(test.k, test.s)
 		fmt.Println(", got:", got)
 	}

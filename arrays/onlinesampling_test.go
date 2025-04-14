@@ -9,7 +9,7 @@ import (
 
 func TestOnlineRandomSampling(t *testing.T) {
 	for _, test := range onlineRandomSamplingTestData {
-		fmt.Print("k:", test.k, ", s:", test.s)
+		fmt.Print("n:", test.k, ", s:", test.s)
 		got := OnlineRandomSampling(test.k, iter.FromSlice(test.s))
 		fmt.Println(", got:", got)
 	}

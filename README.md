@@ -117,7 +117,7 @@ Use arrays when you know the exact length you need ahead of time.
 - [X] [Compute the next permutation](/arrays/nextpermutation.go), [tests](/arrays/nextpermutation_test.go)
 - [X] [Sample offline data](/arrays/offlinesampling.go), [tests](/arrays/offlinesampling_test.go)
 - [X] [Sample online data](arrays/onlinesampling.go), [tests](/arrays/onlinesampling_test.go)
-- [ ] Compute a random permutation
+- [X] [Compute a random permutation](arrays/randompermutation.go), [tests](/arrays/randompermutation_test.go)
 - [ ] Compute a random subset
 - [ ] Generate nonuniform random numbers
 - [ ] The Sudoku checker problem
