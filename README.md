@@ -119,7 +119,7 @@ Use arrays when you know the exact length you need ahead of time.
 - [X] [Sample online data](/arrays/onlinesampling.go), [tests](/arrays/onlinesampling_test.go)
 - [X] [Compute a random permutation](/arrays/randompermutation.go), [tests](/arrays/randompermutation_test.go)
 - [X] [Compute a random subset](/arrays/randomsubset.go), [tests](/arrays/randomsubset_test.go)
-- [ ] Generate nonuniform random numbers
+- [X] [Generate nonuniform random numbers](/arrays/nonuniformrandomnumber.go), [tests](/arrays/nonuniformrandomnumber_test.go)
 - [ ] The Sudoku checker problem
 - [ ] Compute the spiral ordering of a 2D array
 - [ ] Rotate a 2D array
