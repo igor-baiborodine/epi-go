@@ -121,7 +121,7 @@ Use arrays when you know the exact length you need ahead of time.
 - [X] [Compute a random subset](/arrays/randomsubset.go), [tests](/arrays/randomsubset_test.go)
 - [X] [Generate nonuniform random numbers](/arrays/nonuniformrandomnumber.go), [tests](/arrays/nonuniformrandomnumber_test.go)
 - [X] [The Sudoku checker problem](/arrays/sudokuchecker.go), [tests](/arrays/sudokuchecker_test.go)
-- [ ] Compute the spiral ordering of a 2D array
+- [X] [Compute the spiral ordering of a 2D array](/arrays/spiralordering.go), [tests](/arrays/spiralordering_test.go)
 - [ ] Rotate a 2D array
 - [ ] Compute rows in Pascal's Triangle
 
