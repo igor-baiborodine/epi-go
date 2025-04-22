@@ -1,10 +1,25 @@
 package strings
 
-// ReplaceRemove replaces each "a" with two "d"s and removes each "b"
-// from a slice of characters where n is the number of characters
-// that the operation is to be applied to.
-// The input slice can only contain ASCII characters.
-// The time complexity is O(n) and space complexity is O(1).
+// ReplaceRemove modifies an input slice of strings s based on the following rules:
+// 1. Replaces every occurrence of "a" with two "d"s.
+// 2. Removes every occurrence of "b".
+// The function operates in two passes:
+// - Forward pass: Counts the occurrences of "a" and removes all "b"s in-place.
+// - Backward pass: Modifies the slice to replace "a" with "dd", starting from the end.
+//
+// Parameters:
+// - n (int): The number of elements to consider in s.
+// - s ([]string): The slice of strings to modify.
+//
+// Returns:
+// - []string: The modified slice containing the changes specified.
+//
+// Time Complexity:
+// - O(n): The function processes the input slice twice - forward pass and backward pass.
+//
+// Space Complexity:
+//   - O(1): The function operates in-place without requiring additional data structures,
+//     apart from a small constant amount of extra variables.
 func ReplaceRemove(n int, s []string) []string {
 	var wi, ac int
 	//fmt.Println("[1] n, s:", n, s)
@@ -41,6 +56,5 @@ func ReplaceRemove(n int, s []string) []string {
 		ci--
 		//fmt.Println("[4] wi, ci, s:", wi, ci, s)
 	}
-
 	return s[:fs]
 }
