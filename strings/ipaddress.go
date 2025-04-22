@@ -16,7 +16,7 @@ import (
 //
 // Time Complexity: O(n^3)
 //   - There are three nested loops iterating through the string,
-//     where 'n' is the length of the string s.
+//     where n is the length of the string s.
 //   - In the innermost loop, string slicing, leading zero checks,
 //     and conversion to integers have constant time complexity.
 //
