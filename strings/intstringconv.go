@@ -29,31 +29,17 @@ func IntToString(n int) string {
 	if neg {
 		sb.WriteString("-")
 	}
-	return reverseString(sb.String())
+	return ReverseString(sb.String())
 }
 
-// ReverseString reverses the input string and returns the reversed string.
-// It first converts the string into a slice of runes to correctly handle Unicode characters
-// (ensuring multibyte characters are reversed properly). Then, it swaps runes iteratively from
-// the beginning and the end toward the middle of the slice.
+// StringToInt converts a string representation of an integer to its numerical form.
+// It handles optional negative signs at the beginning of the string.
+// The function iterates through each character of the string, computes its numerical value,
+// and combines it into the resultant integer.
+// If a '-' sign is detected, the result is negated.
 //
-// Time Complexity: O(n), where n is the length of the string. Each character is visited once during
-// the swap process.
-// Space Complexity: O(n), additional space is used to convert the string to a rune slice.
-func reverseString(s string) string {
-	runes := []rune(s)
-	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
-		runes[i], runes[j] = runes[j], runes[i]
-	}
-	return string(runes)
-}
-
-func reverseString2(s string) string {
-	runes := []rune(s)
-	slices.Reverse(runes)
-	return string(runes)
-}
-
+// Time Complexity: O(n), where n is the length of the string.
+// Space Complexity: O(1), as no additional space proportional to input size is used.
 func StringToInt(s string) int {
 	var result int
 	var neg bool
@@ -71,4 +57,18 @@ func StringToInt(s string) int {
 		result = -result
 	}
 	return result
+}
+
+func ReverseString(s string) string {
+	runes := []rune(s)
+	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
+		runes[i], runes[j] = runes[j], runes[i]
+	}
+	return string(runes)
+}
+
+func reverseString2(s string) string {
+	runes := []rune(s)
+	slices.Reverse(runes)
+	return string(runes)
 }
