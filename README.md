@@ -133,16 +133,26 @@ Use arrays when you know the exact length you need ahead of time.
 
 **Know Your String Libraries**
 
-- Know operators for manipulating strings: compare(`==`, `!=`), order(`>`, `>=`, `<`, `<=`), and concatenate(`+`).
+- Know operators for manipulating strings: compare(`==`, `!=`), order(`>`, `>=`, `<`, `<=`), and
+  concatenate(`+`).
 - Important to remember that strings in Go are immutable.
-- Know that index expressions to extract a single value, i.g., `s[4]`, and slice expressions to extract substrings, e.g., `s[3:5]`, `s[:8]`, `s[2:]`, can be used only for strings containing characters that take up one byte, e.g., [ASCII](https://en.wikipedia.org/wiki/ASCII) characters.
-- Know what code point([rune](https://go.dev/ref/spec#Rune_literals)) is, and how to iterate through code points in a given string using the `range` clause.
-- Know how to do conversions between strings, runes, and bytes.
-- Be familiar with the functions in the [strings](https://pkg.go.dev/strings) and [unicode/utf8](https://pkg.go.dev/unicode/utf8) packages, e.g., `strings.ToUpper`, `strings.Contains`, `strings.Join`, `strings.Split`, `strings.ReplaceAll`.
-  
+- Know that index expressions to extract a single value, i.g., `s[4]`, and slice expressions to
+  extract substrings, e.g., `s[3:5]`, `s[:8]`, `s[2:]`, can be used only for strings containing
+  characters that take up one byte, e.g., [ASCII](https://en.wikipedia.org/wiki/ASCII) characters.
+- Know what code point([rune](https://go.dev/ref/spec#Rune_literals)) is, and how to iterate through 
+  code points in a given string using the `range` clause.
+- Know how to do conversions between strings, runes, and bytes:
+  * string to slice of runes and vice versa: `runes := []rune(s)`, `s := string(runes)`
+  * string to slice of bytes and vice versa: `bytes := []bytes(s)`, `s := string(bytes)`
+  * slice of runes to slice of bytes and vice versa: `bytes := []byte(string(runes))`,
+    `runes := []rune(string(bytes))`  
+- Be familiar with the functions in the [strings](https://pkg.go.dev/strings)
+  and [unicode/utf8](https://pkg.go.dev/unicode/utf8) packages, e.g., `strings.ToUpper`,
+  `strings.Contains`, `strings.Join`, `strings.Split`, `strings.ReplaceAll`.
+
 **Tasks**
 
-- [ ] Interconvert strings and integers
+- [X] [Interconvert strings and integers](/strings/intstringconv.go), [tests](/strings/intstrngconv_test.go)
 - [ ] Base conversion
 - [ ] Compute the spreadsheet column encoding
 - [X] [Replace and remove](/strings/replaceremove.go), [tests](/strings/replaceremove_test.go)
