@@ -18,7 +18,7 @@ import (
 //   - There are three nested loops iterating through the string,
 //     where n is the length of the string s.
 //   - In the innermost loop, string slicing, leading zero checks,
-//     and conversion to integers have constant time complexity.
+//     and conversion to integers has constant time complexity.
 //
 // Space Complexity: O(m * n)
 // - m is the number of valid IPv4 addresses generated.
