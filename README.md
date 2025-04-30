@@ -157,7 +157,7 @@ Use arrays when you know the exact length you need ahead of time.
 - [X] [Compute the spreadsheet column encoding](/strings/spreadsheetencoding.go), [tests](/strings/speadsheetencoding_test.go)
 - [X] [Replace and remove](/strings/replaceremove.go), [tests](/strings/replaceremove_test.go)
 - [X] [Test palindromicity](/strings/palindromicity.go), [tests](/strings/palindromicity_test.go)
-- [ ] Reverse all the words in a sentence
+- [X] [Reverse all the words in a sentence](/strings/reversewords.go), [tests](/strings/reversewords_test.go)
 - [ ] Compute all mnemonics for a phone number
 - [ ] The look-and-say problem
 - [ ] Convert from Roman to decimal
