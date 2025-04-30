@@ -162,7 +162,7 @@ Use arrays when you know the exact length you need ahead of time.
 - [X] [The look-and-say problem](/strings/lookandsay.go), [tests](/strings/lookandsay_test.go)
 - [X] [Convert from Roman to decimal](/strings/romantointeger.go), [tests](/strings/romantointeger_test.go)
 - [X] [Compute all valid IP addresses](/strings/ipaddress.go), [tests](/strings/ipaddress_test.go)
-- [ ] Write a string sinusoidally
+- [X] [Write a string sinusoidally](/strings/snakestring.go), [tests](/strings/snakestring_test.go)
 - [ ] Implement run-length encoding
 - [ ] Find the first occurrence of a substring 
 
