@@ -160,7 +160,7 @@ Use arrays when you know the exact length you need ahead of time.
 - [X] [Reverse all the words in a sentence](/strings/reversewords.go), [tests](/strings/reversewords_test.go)
 - [X] [Compute all mnemonics for a phone number](/strings/phonenumbermnemonics.go), [tests](/strings/phonenumbermnemonics_test.go)
 - [X] [The look-and-say problem](/strings/lookandsay.go), [tests](/strings/lookandsay_test.go)
-- [ ] Convert from Roman to decimal
+- [X] [Convert from Roman to decimal](/strings/romantointeger.go), [tests](/strings/romantointeger_test.go)
 - [X] [Compute all valid IP addresses](/strings/ipaddress.go), [tests](/strings/ipaddress_test.go)
 - [ ] Write a string sinusoidally
 - [ ] Implement run-length encoding
