@@ -129,7 +129,7 @@ Use arrays when you know the exact length you need ahead of time.
 
 **Useful Resources**
 
-- [Strings, bytes, runes and characters in Go](https://go.dev/blog/strings)
+- [Strings, bytes, runes, and characters in Go](https://go.dev/blog/strings)
 
 **Know Your String Libraries**
 
@@ -158,7 +158,7 @@ Use arrays when you know the exact length you need ahead of time.
 - [X] [Replace and remove](/strings/replaceremove.go), [tests](/strings/replaceremove_test.go)
 - [X] [Test palindromicity](/strings/palindromicity.go), [tests](/strings/palindromicity_test.go)
 - [X] [Reverse all the words in a sentence](/strings/reversewords.go), [tests](/strings/reversewords_test.go)
-- [ ] Compute all mnemonics for a phone number
+- [X] [Compute all mnemonics for a phone number](/strings/phonenumbermnemonics.go), [tests](/strings/phonenumbermnemonics_test.go)
 - [ ] The look-and-say problem
 - [ ] Convert from Roman to decimal
 - [X] [Compute all valid IP addresses](/strings/ipaddress.go), [tests](/strings/ipaddress_test.go)
