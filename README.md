@@ -154,7 +154,7 @@ Use arrays when you know the exact length you need ahead of time.
 
 - [X] [Interconvert strings and integers](/strings/intstringconv.go), [tests](/strings/intstrngconv_test.go)
 - [X] [Base conversion](/strings/convertbase.go), [tests](/strings/convertbase_test.go)
-- [ ] Compute the spreadsheet column encoding
+- [X] [Compute the spreadsheet column encoding](/strings/spreadsheetencoding.go), [tests](/strings/speadsheetencoding_test.go)
 - [X] [Replace and remove](/strings/replaceremove.go), [tests](/strings/replaceremove_test.go)
 - [X] [Test palindromicity](/strings/palindromicity.go), [tests](/strings/palindromicity_test.go)
 - [ ] Reverse all the words in a sentence
