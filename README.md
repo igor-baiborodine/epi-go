@@ -164,7 +164,7 @@ Use arrays when you know the exact length you need ahead of time.
 - [X] [Compute all valid IP addresses](/strings/ipaddress.go), [tests](/strings/ipaddress_test.go)
 - [X] [Write a string sinusoidally](/strings/snakestring.go), [tests](/strings/snakestring_test.go)
 - [X] [Implement run-length encoding](/strings/runlengthcompression.go), [tests](/strings/runlenghtcompression_test.go)
-- [ ] Find the first occurrence of a substring 
+- [X] [Find the first occurrence of a substring](/strings/substringmatch.go), [tests](/strings/substringmatch_test.go) 
 
 ### Linked Lists
 WIP
