@@ -163,7 +163,7 @@ Use arrays when you know the exact length you need ahead of time.
 - [X] [Convert from Roman to decimal](/strings/romantointeger.go), [tests](/strings/romantointeger_test.go)
 - [X] [Compute all valid IP addresses](/strings/ipaddress.go), [tests](/strings/ipaddress_test.go)
 - [X] [Write a string sinusoidally](/strings/snakestring.go), [tests](/strings/snakestring_test.go)
-- [ ] Implement run-length encoding
+- [X] [Implement run-length encoding](/strings/runlengthcompression.go), [tests](/strings/runlenghtcompression_test.go)
 - [ ] Find the first occurrence of a substring 
 
 ### Linked Lists
